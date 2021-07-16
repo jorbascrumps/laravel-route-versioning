@@ -1,0 +1,22 @@
+{
+    "name": "jorbascrumps/laravel-semantic-route-versioning",
+    "require": {
+        "php": "^8.0",
+        "composer/semver": "^3.2"
+    },
+    "require-dev": {
+        "laravel/framework": "^8.50"
+    },
+    "autoload": {
+        "psr-4": {
+            "jorbascrumps\\SemanticRouteVersion\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "jorbascrumps\\SemanticRouteVersion\\ServiceProvider"
+            ]
+        }
+    }
+}
